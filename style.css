@@ -1,8 +1,19 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  padding: 1% 10%;
+  align-items: center;
+  justify-content: space-between;
+}
 #landing {
   height: 100vh;
   background-image: url(https://picsum.photos/1100/900?random=1);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .landing-content {
   display: flex;
@@ -12,25 +23,100 @@
 }
 
 #project {
-  height: 100vh;
+  height: 224vh;
+  padding: 5% 10%;
+}
+.project-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 #about {
-  height: 100vh;
+  height: 118vh;
+  padding: 5% 10%;
+}
+.border {
+  border-radius: 5px;
+  padding: 25px;
+  margin-right: 5%;
+  background: #0e139a;
+  box-shadow: inset 35px 35px 70px #0a55c3, inset -35px -35px 70px #1087ff;
+  height: fit-content;
+  width: fit-content;
+  width: 50%;
+}
+.img {
+  border-radius: 5px;
+  height: 700px;
+  width: 333px;
+  object-fit: cover;
 }
 
+.container-p {
+  display: flex;
+}
+.h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.content-details {
+  display: flex;
+}
+.details-left {
+  padding-right: 10px;
+}
 #resume {
-  height: 100vh;
+  height: 175vh;
+  padding: 5% 10%;
+}
+.container-res {
+  display: flex;
+  justify-content: space-between;
+}
+.card-res {
+  width: 600px;
+  padding: 30px;
+  max-width: 95%;
+  min-height: 300px;
+  margin-bottom: 20px;
+  border: solid;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.skills-container {
+  display: flex;
+}
+.card-skills {
+  margin-right: 20px;
+  border: solid;
+}
+
+.fa-brands {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
 }
 
 #skills {
   height: 100vh;
+  padding: 5% 10%;
 }
 
 #testtimonial {
   height: 100vh;
+  padding: 5% 10%;
 }
 
 #contact {
   height: 100vh;
+  padding: 5% 10%;
 }
