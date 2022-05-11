@@ -1,3 +1,6 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
 .header {
   position: fixed;
   top: 0;
@@ -19,17 +22,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top: 300px;
 }
 
 #project {
-  height: 224vh;
+  height: 164vh;
   padding: 5% 10%;
 }
 .project-section {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+.card-img-top {
+  width: 400px;
+  height: 200px;
 }
 
 #about {
@@ -75,7 +82,7 @@
   padding-right: 10px;
 }
 #resume {
-  height: 175vh;
+  height: 179vh;
   padding: 5% 10%;
 }
 .container-res {
@@ -94,6 +101,8 @@
 }
 .skills-container {
   display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
 }
 .card-skills {
   margin-right: 20px;
@@ -106,11 +115,6 @@
   justify-content: center;
 }
 
-#skills {
-  height: 100vh;
-  padding: 5% 10%;
-}
-
 #testtimonial {
   height: 100vh;
   padding: 5% 10%;
@@ -119,4 +123,33 @@
 #contact {
   height: 100vh;
   padding: 5% 10%;
+}
+.form-and-details-container-fliud {
+  display: flex;
+}
+.bi {
+  display: flex;
+  align-items: center;
+}
+.i {
+  border: solid 5px;
+  border-radius: 50%;
+}
+.rounded-circle {
+  height: 27px;
+  width: 18px;
+  font-size: 31px;
+}
+.m:hover {
+  background: #0a55c3;
+}
+li.m {
+  border-radius: 50%;
+}
+.o {
+  background-color: #0d6efd;
+}
+.y {
+  display: flex;
+  flex-direction: column;
 }
