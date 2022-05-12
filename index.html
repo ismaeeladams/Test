@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Isma'eel Adams</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,15 +25,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/396ec82b92.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,8 +40,8 @@
           class="btn btn-primary"
           type="button"
           data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasScrolling"
-          aria-controls="offcanvasScrolling"
+          data-bs-target="#nav"
+          aria-controls="nav"
         >
           <i class="fa-solid fa-bars-staggered"></i>
         </button>
@@ -59,11 +50,11 @@
           data-bs-scroll="true"
           data-bs-backdrop="false"
           tabindex="-1"
-          id="offcanvasScrolling"
-          aria-labelledby="offcanvasScrollingLabel"
+          id="nav"
+          aria-labelledby="navLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Navbar</h5>
+            <h5 class="offcanvas-title" id="navLabel">Navbar</h5>
             <button
               type="button"
               class="btn-close text-reset"
@@ -90,19 +81,21 @@
       </nav>
     </section>
     <section id="landing" class="landing">
-      <div class="landing-content">
-        <p>Hi, I'm Isma'eel Adams</p>
-        <h1>
-          <span class="cursive">Aspiring</span> Full Stack
-          <span>Developer</span>
-        </h1>
+      <div class="container-fluid container-l">
+        <div class="landing-content">
+          <p>Hi, I'm Isma'eel Adams</p>
+          <h1>
+            <span class="cursive">Aspiring</span> Full Stack
+            <span>Developer</span>
+          </h1>
+        </div>
       </div>
     </section>
     <section id="project" class="project">
-      <div class="container container-fluid">
-        <div class="setion-header">Projects</div>
+      <div class="container">
+        <div class="section-header">Projects</div>
         <div class="project-content">
-          <div class="project-section">
+          <div class="project-section container-fluid">
             <div class="project-card">
               <div class="card" style="width: 400px">
                 <img
@@ -112,21 +105,23 @@
                 />
                 <div class="card-body">
                   <h5 class="card-title">Calculater</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+
                   <a
                     href="https://github.com/ismaeeladams/Calculater.git"
                     target="_blank"
                     class="btn btn-primary"
                     >GitHub</a
                   >
-                  <a href="#" class="btn btn-primary">Live</a>
+                  <a
+                    href="https://zesty-mermaid-080100.netlify.app"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Live</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="project-card" style="margin-top: 150px">
+            <div class="project-card">
               <div class="card" style="width: 400px">
                 <img
                   src="https://picsum.photos/200/300?random=2"
@@ -135,22 +130,24 @@
                 />
                 <div class="card-body">
                   <h5 class="card-title">Holiday-Destination</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+
                   <a
                     href="https://github.com/ismaeeladams/Holiday-Destination.git"
                     target="_blank"
                     class="btn btn-primary"
                     >GitHub</a
                   >
-                  <a href="#" class="btn btn-primary">Live</a>
+                  <a
+                    href="https://voluble-tulumba-cf4224.netlify.app"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Live</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="project-section">
+          <div class="project-section container-fluid">
             <div class="project-card">
               <div class="card" style="width: 400px">
                 <img
@@ -160,21 +157,23 @@
                 />
                 <div class="card-body">
                   <h5 class="card-title">Portfolio</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+
                   <a
                     href="https://github.com/ismaeeladams/portfolio.git"
                     target="_blank"
                     class="btn btn-primary"
                     >GitHub</a
                   >
-                  <a href="#" class="btn btn-primary">Live</a>
+                  <a
+                    href="https://grand-praline-11396e.netlify.app"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Live</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="project-card" style="margin-top: 150px">
+            <div class="project-card">
               <div class="card" style="width: 400px">
                 <img
                   src="https://picsum.photos/200/300?random=4"
@@ -183,17 +182,19 @@
                 />
                 <div class="card-body">
                   <h5 class="card-title">Mock</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+
                   <a
                     href="https://github.com/ismaeeladams/mock.git"
                     target="_blank"
                     class="btn btn-primary"
                     >GitHub</a
                   >
-                  <a href="#" class="btn btn-primary">Live</a>
+                  <a
+                    href="https://clinquant-figolla-c9ddff.netlify.app"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Live</a
+                  >
                 </div>
               </div>
             </div>
@@ -204,7 +205,7 @@
     <section id="about" class="about">
       <div class="container-p container-fliud">
         <div
-          class="border border-5 border-primary d-flex justify-content-center"
+          class="img-a border  d-flex justify-content-center"
         >
           <img class="img" src="https://picsum.photos/200/300?random=6" />
         </div>
@@ -263,22 +264,18 @@
           <h4>Education</h4>
           <div class="card-res" style="width: 25rem">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 class="card-title">Life Choices</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Wed development and programming bootcamp
+              </h6>
+              <h6 class="card-subtitle mb-2 text-muted">2022-Present</h6>
             </div>
           </div>
           <div class="card-res" style="width: 25rem">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 class="card-title">Oracle Academy High School</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Matric</h6>
+              <h6 class="card-subtitle mb-2 text-muted">2021</h6>
             </div>
           </div>
         </div>
@@ -286,32 +283,21 @@
           <h4>Experience</h4>
           <div class="card-res" style="width: 25rem">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 class="card-title">FK Adams constrution</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Labourer</h6>
+              <h6 class="card-subtitle mb-2 text-muted">2021-Present</h6>
             </div>
           </div>
           <div class="card-res" style="width: 25rem">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
             </div>
           </div>
           <div class="card-res" style="width: 25rem">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
             </div>
           </div>
         </div>
@@ -319,7 +305,7 @@
       <div class="skills-container">
         <div class="card-skills" style="width: 18rem">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Bootstrap</h5>
             <p class="card-text">
               <i class="fa-brands fa-bootstrap"></i>
             </p>
@@ -327,7 +313,7 @@
         </div>
         <div class="card-skills" style="width: 18rem">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">HTML</h5>
             <p class="card-text">
               <i class="fa-brands fa-html5"></i>
             </p>
@@ -335,7 +321,7 @@
         </div>
         <div class="card-skills" style="width: 18rem">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">CSS</h5>
             <p class="card-text">
               <i class="fa-brands fa-css3"></i>
             </p>
@@ -344,24 +330,138 @@
       </div>
     </section>
     <section id="testimonial" class="testimonial">
+      <div class="section-header">
+        <h3>These are Testimonials</h3>
+      </div>
       <div class="tes-container">
         <div class="owl-carousel">
           <div class="p-3">
-            <div class="bg-dark text-white p-3">1</div>
+            <div class="bg-dark text-white p-3">
+              <div class="tes">
+                <div class="tes-header">
+                  <div class="tes-img">
+                    <img
+                      src="https://picsum.photos/200/300?random=8"
+                      style="height: 50px"
+                    />
+                  </div>
+                  <div class="tes-authour">
+                    <h5>Milo</h5>
+                    <h6>Head of Nothing</h6>
+                  </div>
+                </div>
+                <div class="tes-body">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Sit modi harum veniam assumenda dicta odio, repudiandae
+                    culpa iusto provident nesciunt!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">2</div>
+            <div class="bg-dark text-white p-3">
+              <div class="tes">
+                <div class="tes-header">
+                  <div class="tes-img">
+                    <img
+                      src="https://picsum.photos/200/300?random=9"
+                      style="height: 50px"
+                    />
+                  </div>
+                  <div class="tes-authour">
+                    <h5>Milo</h5>
+                    <h6>Head of Nothing</h6>
+                  </div>
+                </div>
+                <div class="tes-body">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Sit modi harum veniam assumenda dicta odio, repudiandae
+                    culpa iusto provident nesciunt!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">3</div>
+            <div class="bg-dark text-white p-3">
+              <div class="tes">
+                <div class="tes-header">
+                  <div class="tes-img">
+                    <img
+                      src="https://picsum.photos/200/300?random=10"
+                      style="height: 50px"
+                    />
+                  </div>
+                  <div class="tes-authour">
+                    <h5>Milo</h5>
+                    <h6>Head of Nothing</h6>
+                  </div>
+                </div>
+                <div class="tes-body">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Sit modi harum veniam assumenda dicta odio, repudiandae
+                    culpa iusto provident nesciunt!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">4</div>
+            <div class="bg-dark text-white p-3">
+              <div class="tes">
+                <div class="tes-header">
+                  <div class="tes-img">
+                    <img
+                      src="https://picsum.photos/200/300?random=11"
+                      style="height: 50px"
+                    />
+                  </div>
+                  <div class="tes-authour">
+                    <h5>Milo</h5>
+                    <h6>Head of Nothing</h6>
+                  </div>
+                </div>
+                <div class="tes-body">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Sit modi harum veniam assumenda dicta odio, repudiandae
+                    culpa iusto provident nesciunt!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">5</div>
+            <div class="bg-dark text-white p-3">
+              <div class="tes">
+                <div class="tes-header">
+                  <div class="tes-img">
+                    <img
+                      src="https://picsum.photos/200/300?random=12"
+                      style="height: 50px"
+                    />
+                  </div>
+                  <div class="tes-authour">
+                    <h5>Milo</h5>
+                    <h6>Head of Nothing</h6>
+                  </div>
+                </div>
+                <div class="tes-body">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Sit modi harum veniam assumenda dicta odio, repudiandae
+                    culpa iusto provident nesciunt!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        
       </div>
     </section>
     <section id="contact" class="contact">
@@ -379,9 +479,10 @@
             <li>
               <i class="fa-solid fa-location-dot"></i>Grassy Park, Cape Town
             </li>
-            <li><i class="fa-solid fa-mobile-button"></i>072 840 1187</li>
-            <li>
-              <i class="fa-solid fa-paper-plane"></i>adamsismaeel@gmail.com
+            <li> <a href="tel:072 840 1187"><i class="fa-solid fa-mobile-button"></i></a> 072 840 1187</li>
+            <li> 
+              <a href="mailto:adamsismaeel@gmail.com"> <i class="fa-solid fa-paper-plane"></i></a> 
+              </i>adamsismaeel@gmail.com
             </li>
           </ul>
           <div class="details-links">
@@ -448,7 +549,15 @@
           </form>
         </div>
       </div>
-    </section>
+    </section> 
+    <footer class="footer">
+      <div class="footer-container container-fluid">
+        <div class="design">
+          <p>Designed and developed by <span class="fw-bold">Isma'eel Adams</span></p>
+        </div>
+        <div class="copyright"> <p>Copyright © 2022. All Rights Reserved</p>  </div>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
       integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
@@ -471,8 +580,23 @@
           autoplay: true,
           items: 1,
           loop: true,
+          margin: 100,
+          stagePadding: 0,
+          dots: true,
+          resoponsiveClass: true,
+
+          items: 1,
         });
       });
     </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/396ec82b92.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
