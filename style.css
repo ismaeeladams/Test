@@ -34,7 +34,9 @@ body {
 }
 #landing {
   height: 100vh;
-  background-image: url(https://picsum.photos/1100/900?random=1);
+  /* background-image: url(https://picsum.photos/1100/900?random=1); */
+  background-color: #18182f;
+
   background-size: cover;
   background-position: center;
   position: relative;
@@ -54,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 300px;
+  padding-top: 157px;
 }
 
 #project {
@@ -70,7 +72,21 @@ body {
 /* .card-img-top {
   width: 400px;
   height: 200px;
-} */
+} */  
+.card-title{
+  color: black;
+}
+
+.project-card-pro{
+  margin-bottom: 10px;
+  background-color: #121231;
+  box-shadow: #141327;
+}
+
+/* .bg-body {
+  --bs-bg-opacity: 0.7;
+  /* background-color:; */
+
 
 #about {
   /* height: 86vh; */
@@ -136,6 +152,10 @@ body {
   border-bottom-right-radius: 10px;
 }
 
+.card-title-res{
+  color: white;
+}
+
 .container {
   justify-content: space-between;
 }
@@ -184,7 +204,7 @@ body {
   height: 10px;
 }
 .owl-dots {
-  background: black;
+  /* background: black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,7 +212,7 @@ body {
   gap: 10px;
 }
 button.owl-dot.active {
-  background: aqua;
+  background: #6449e7;
 }
 #contact {
   /* height: 60vh; */
@@ -222,6 +242,7 @@ textarea.form-control {
   border: none;
   border-bottom: solid;
   margin-bottom: 10px;
+  background-color:  transparent ;
 }
 
 .owl-carousel .owl-item img {
@@ -232,10 +253,10 @@ textarea.form-control {
   display: flex;
   align-items: center;
 }
-.i {
+/* .i {
   border: solid 5px;
   border-radius: 50%;
-}
+} */
 .rounded-circle {
   height: 27px;
   width: 18px;
